@@ -1,0 +1,26 @@
+/* All paragraph text is red. */
+p{
+  color: red;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+/* All h1 headers green. */
+h1{
+  color: #194C19;
+  text-transform: uppercase;
+}
+
+/* BOTH h1 AND h2 headers have grey background. */
+h1, h2 {
+  background-color: #888888;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* Targert ALL elements (*) change font to sans-serif */
+* {
+  font-family: sans-serif;
+}
